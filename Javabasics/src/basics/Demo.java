@@ -3,14 +3,9 @@ package basics;
 public class Demo {
 	public static void main(String args[])
 	{
-		int sum;
-		sum = shreyasAdd(10,20);
-		System.out.println("the sum is --"+sum);
-	}
-//-------------------------------------------------------------
-	static int shreyasAdd(int fno, int sno) {
-		int result =  fno + sno;
-		return result;
+		Student collegeStudent = new Student(); 
+		collegeStudent.name = "Shreyas";
+		System.out.println("Name of the student is "+collegeStudent.name);
 		}
 }
 
