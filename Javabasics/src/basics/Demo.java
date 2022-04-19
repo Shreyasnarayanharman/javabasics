@@ -1,8 +1,17 @@
 package basics;
 
 public class Demo {
+	static String COLLEGE_NAME;  //static variable
+	
+	static { 
+		  System.out.println("static block invoked"); 
+		  COLLEGE_NAME = "iit"; 
+	}
+	
 	public static void main(String args[])
 	{
+
+
 		
 		Student collegeStudent = new Student(); 
 		
