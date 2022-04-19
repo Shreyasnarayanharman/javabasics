@@ -12,7 +12,7 @@ public class Demo {
 	{
 
 
-		
+		Student Shreyas;
 		Student collegeStudent = new Student(); 
 		
 		
