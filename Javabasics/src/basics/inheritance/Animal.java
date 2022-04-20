@@ -1,11 +1,11 @@
 package basics.inheritance;
-
-public class Animal{  
-	void eat(){System.out.println("eating...");}  
+public class Animal{
+String color="white";  
 }  
 class Dog extends Animal{  
-	void bark(){System.out.println("barking...");}  
-}  
-class BabyDog extends Dog{  
-	void weep(){System.out.println("weeping...");}  
-}  
+	String color="black";  
+	void printColor(){  
+		System.out.println(color);//prints color of Dog class  
+		System.out.println(super.color);//prints color of Animal class  
+	}  
+}
